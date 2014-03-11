@@ -5,8 +5,10 @@ CakePHP plugin, PHP 5
 
 Linkable is a lightweight approach for data mining on deep relations between models. Joins tables based on model relations to easily enable right to left find operations.
 
+This is a CakePHP 2.x update. It does exactly the same things of Terr's behavior. It is exactly the same, indeed, except for how the beforeFind function is called.
+
 ## Requirements ##
-- CakePHP 1.2.x or 1.3.x
+- CakePHP 2.x
 - PHP 5
 
 ## Installation ##
@@ -102,6 +104,7 @@ This will fetch all users related to the specified project in one query.
 ## Authors ##
 - Originally authored by: Rafael Bandeira (rafaelbandeira3 (at) gmail (dot) com), http://rafaelbandeira3.wordpress.com
 - Maintained by: Arjen Verstoep (terr (at) terr (dot) nl), https://github.com/Terr
+- Updated for CakePHP 2.x by: Emanuele "ToX" Toscano
 - giulianob, https://github.com/giulianob
 - Chad Jablonski, https://github.com/cjab
 - Nathan Porter, https://github.com/n8man
@@ -111,4 +114,4 @@ This will fetch all users related to the specified project in one query.
 Licensed under The MIT License
 Redistributions of files must retain the above copyright notice.
 
-[Download]: https://github.com/Terr/linkable/downloads
+[Download]: https://github.com/ToX82/linkable/downloads
